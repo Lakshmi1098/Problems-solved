@@ -1,0 +1,8 @@
+num=int(input())
+l=[int(x) for x in str(num)]
+i=int(input())
+if i in l:
+    print("Digit present")
+    
+else:
+    print("Not present")

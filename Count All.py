@@ -1,3 +1,19 @@
+
+***********************************QUESTION************************************
+SAMPLE INPUT 
+5
+5 6 7 8 4
+SAMPLE OUTPUT 
+12
+Explanation
+For 1, special elements are 5,6,7,8,4
+For 2, special elements are 6,8,4
+For 3, special element is 6
+For 4, special elements are 8,4
+For 5, special element is 5
+Total count = 5+3+1+2+1 =12
+
+*************************************SOLUTION******************************
 def solve (Ar):
     r=[]
     r.append(n)

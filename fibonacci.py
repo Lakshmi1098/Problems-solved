@@ -12,3 +12,14 @@ else:
         n2=nth
         c+=1
         
+
+        
+        
+   for i in range(int(input())):
+    N=int(input())
+    c=[1,1]
+    if N>2:
+        for i in range(2,N):
+            c.append(c[i-2]+c[i-1])
+    print(*c)
+    print(sum([i for i in c if i%2==0 if i<=N]))
